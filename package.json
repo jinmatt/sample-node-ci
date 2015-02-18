@@ -1,0 +1,19 @@
+{
+  "name": "sample-ci-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Jinsu Mathew <jinsu@mindhelix.com>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "mocha": "^2.1.0"
+  }
+}
