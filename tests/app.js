@@ -13,9 +13,9 @@ should = chai.should();
  */
 
 describe('# Add function', function() {
-  it('Should add 5 and 7 to get 12 as result', function(done) {
-    add(5, 7, function(sum) {
-      sum.should.equal(12);
+  it('Should add 12 and 7 to get 19 as result', function(done) {
+    add(12, 7, function(sum) {
+      sum.should.equal(19);
       done();
     });
   });
